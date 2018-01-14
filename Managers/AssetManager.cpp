@@ -1,7 +1,7 @@
 #include <SFML/Graphics.hpp>
 #include "AssetManager.hpp"
 
-namespace Tic
+namespace Chess
 {
 	void AssetManager::loadTexture(std::string name, std::string fileName)
 	{

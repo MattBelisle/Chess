@@ -5,7 +5,7 @@
 
 #include "../Views/State.hpp"
 
-namespace Tic {
+namespace Chess {
 	typedef std::unique_ptr<State> StateRef;
 
 	class StateMachine{

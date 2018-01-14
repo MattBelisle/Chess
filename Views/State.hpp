@@ -1,6 +1,6 @@
 #pragma once
 
-namespace Tic {
+namespace Chess {
 	class State{
 	public: 
 		virtual void init() = 0;

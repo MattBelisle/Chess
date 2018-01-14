@@ -7,7 +7,7 @@
 #include "Managers/AssetManager.hpp"
 #include "Managers/InputManager.hpp"
 
-namespace Tic
+namespace Chess
 {
 	struct GameData
 	{

@@ -2,6 +2,6 @@
 #include "Game.hpp"
 #include "DEFINITIONS.hpp"
 int main(){
-	Tic::Game(SCREEN_WIDTH,SCREEN_HEIGHT,"Tic-Tac-Toe");
+	Chess::Game(SCREEN_WIDTH,SCREEN_HEIGHT,"Chess-Tac-Toe");
 	return 0;
 }

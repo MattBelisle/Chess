@@ -4,7 +4,7 @@
 
 #include <SFML/Graphics.hpp>
 
-namespace Tic{
+namespace Chess{
 	class AssetManager{
 
 	public:

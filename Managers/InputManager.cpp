@@ -1,6 +1,6 @@
 #include "InputManager.hpp"
 
-namespace Tic{
+namespace Chess{
 	bool InputManager::isSpriteClicked(sf::Sprite object, sf::Mouse::Button button, sf::RenderWindow &window){
 		if(sf::Mouse::isButtonPressed(button)){
 

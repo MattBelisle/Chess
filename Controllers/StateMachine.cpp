@@ -1,6 +1,6 @@
 #include "StateMachine.hpp"
 
-namespace Tic{
+namespace Chess{
 	void StateMachine::addState( StateRef newState, bool isReplacing){
 		this->_isAdding = true; 
 		this->_isReplacing = isReplacing;

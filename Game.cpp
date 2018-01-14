@@ -1,7 +1,7 @@
 #include "Game.hpp"
 #include "SplashState.hpp"
 
-namespace Tic{
+namespace Chess{
 	Game::Game(int width, int height, std::string nameOfApp){
 		_data->window.create( sf::VideoMode(width, height), nameOfApp, sf::Style::Close | sf::Style::Titlebar);
 		_data->machine.addState(StateRef(new SplashState(this->_data)));
