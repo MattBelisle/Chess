@@ -3,7 +3,7 @@
 #include <memory>
 #include <stack>
 
-#include "State.hpp"
+#include "../Views/State.hpp"
 
 namespace Tic {
 	typedef std::unique_ptr<State> StateRef;

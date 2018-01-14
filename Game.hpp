@@ -3,9 +3,9 @@
 #include <memory>
 #include <string>
 #include <SFML/Graphics.hpp>
-#include "StateMachine.hpp"
-#include "AssetManager.hpp"
-#include "InputManager.hpp"
+#include "Controllers/StateMachine.hpp"
+#include "Managers/AssetManager.hpp"
+#include "Managers/InputManager.hpp"
 
 namespace Tic
 {
