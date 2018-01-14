@@ -1,5 +1,5 @@
 #include "Game.hpp"
-#include "SplashState.hpp"
+#include "Views/SplashState.hpp"
 
 namespace Chess{
 	Game::Game(int width, int height, std::string nameOfApp){

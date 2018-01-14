@@ -1,6 +1,7 @@
 CXX := g++
 program_NAME := Project1
-program_CXX_SRCS := $(wildcard *.cpp)
+program_CXX_FOLDER_SRCS := $(wildcard */*.cpp)
+program_CXX_SRCS := $(wildcard *.cpp) $(program_CXX_FOLDER_SRCS)
 program_CXX_OBJS := ${program_CXX_SRCS:.cpp=.o}
 program_OBJS := $(program_CXX_OBJS)
 program_INCLUDE_DIRS :=
